@@ -1,0 +1,9 @@
+.display {
+    background-color: rgb(112, 173, 71);
+    border-radius: 15px;
+    text-align: right;
+    font-size: 500%;
+    height: 100%;
+    margin: 0px 30px;
+    padding-right: 20px;
+}

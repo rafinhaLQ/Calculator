@@ -1,27 +1,41 @@
 # Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+My first Front-end project. A functional calculator.
 
-## Development server
+Angular 16.2.1
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Constraints
 
-## Code scaffolding
+- You may not use the `eval()` function to execute calculations
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## User Stories
 
-## Build
+-   [x] User can see a display showing the current number entered or the
+result of the last operation.
+-   [x] User can see an entry pad containing buttons for the digits 0-9, 
+operations - '+', '-', '/', and '=', a 'C' button (for clear), and an 'AC'
+button (for clear all).
+-   [x] User can enter numbers as sequences up to 8 digits long by clicking on
+digits in the entry pad. Entry of any digits more than 8 will be ignored.
+-   [x] User can click on an operation button to display the result of that
+operation on the result of the preceding operation and the last number entered.
+-   [x] User can click on an operation button to display the result of that
+operation on the last two numbers entered
+-   [x] User can click on an operation button to display the result of that
+operation on the last number entered.
+-   [x] User can click the 'C' button to clear the last number or the last
+operation. If the users last entry was an operation the display will be
+updated to the value that preceded it.
+-   [x] User can click the 'AC' button to clear all internal work areas and
+to set the display to 0.
+-   [x] User can see 'ERR' displayed if any operation would exceed the 
+8 digit maximum.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Bonus features
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-   [ ] User can click a '+/-' button to change the sign of the number that is
+currently displayed.
+-   [ ] User can see a decimal point ('.') button on the entry pad to that 
+allows floating point numbers up to 3 places to be entered and operations to
+be carried out to the maximum number of decimal places entered for any one
+number.

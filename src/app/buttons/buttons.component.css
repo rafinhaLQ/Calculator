@@ -1,0 +1,42 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 15px;
+    margin: 30px;
+    height: calc(100% - 60px);
+}
+
+.button {
+    background-color: black;
+    border-radius: 12%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+#buttonEqual {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: rgb(255, 192, 0);
+}
+
+#buttonAc, #buttonC {
+    background-color: rgb(192, 0, 0);
+}
+
+#buttonPlus, #buttonMinus, #buttonDivide {
+    background-color: rgb(166, 166, 166);
+}
+
+#buttonZero {
+    grid-column-start: 2;
+}
